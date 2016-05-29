@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+	<meta charset="utf-8">
+	<title>Сайтик</title>
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+	<style type="text/css"></style>
+    
+<body>
+	<script src="js/jquery-1.12.3.js"></script>
+	<script src="js/bootstrap.js"></script>
+    
+	<style>
+		.jumbotron {
+			background-color: #FFAE00;
+		}
+		
+		.carousel-indicators li {
+			border: 1px solid #000000;
+		}
+		
+		.carousel-indicators .active {
+			background-color: #000000;
+		}
+	</style>
+  
+	<div class="jumbotron">
+		<h1 style="text-align:center">SwetlAnkA</h1>
+		
+	</div>
+    
+    <div class="container">
+        <h2>Выберите интересующую Вас тему:</h2>
+        
+        <!--Делаем слайдер для двух подсайтов-->
+  		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
+  
+  			<!-- Индикаторы -->
+            
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active" ></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1" ></li>
+            </ol>
+    
+            <!-- Обработка скольжения -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="i/3.png" alt="Мыло" style="text-align: center;">
+                        <div class="carousel-caption">
+                        	<h3 style="color:#000000">Домашняя косметика</h3>
+                        </div>
+                </div>
+                
+                <div class="item">
+                    <img src="i/4.png" alt="Квесты" style="text-align: center;">
+                        <div class="carousel-caption">
+                        	<h3 style="color:#000000">Квестомания</h3>
+                        </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div>
+        
+
+
+  
+</body>
+</html>
